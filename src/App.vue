@@ -1,28 +1,54 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="box">
+      <addMessage/>
+    </div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import addMessage from "@/components/addMessage/addMessage.vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    addMessage
   }
 }
 </script>
 
-<style>
+<style scoped>
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  grid-template-rows: repeat(3, 240px);
+  background-color: #ffffff;
+}
+
+.box {
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  border: 1px solid black;
+  padding: 5px;
 }
 </style>
