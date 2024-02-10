@@ -6,7 +6,9 @@
     <div class="box">
       <backgroundLoop/>
     </div>
-    <div class="box"></div>
+    <div class="box">
+      <buttonStyle1 name="按钮1"/>
+    </div>
     <div class="box"></div>
 
     <div class="box"></div>
@@ -29,14 +31,15 @@
 import addMessage from "@/components/addMessage.vue";
 import backgroundLoop from "@/components/backgroundLoop.vue";
 import navTest from "@/components/navTest.vue";
-
+import buttonStyle1 from "@/components/buttonStyle1.vue";
 
 export default {
   name: 'App',
   components: {
     addMessage,
     backgroundLoop,
-    navTest
+    navTest,
+    buttonStyle1
   }
 }
 </script>

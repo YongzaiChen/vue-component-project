@@ -1,14 +1,28 @@
 <template>
   <div class="main">
-    <div class="btn">1</div>
-    <div class="btn">2</div>
-    <div class="btn">3</div>
-    <div class="btn">4</div>
+    <div class="btn">
+      <buttonStyle1 name="123"/>
+    </div>
+    <div class="btn">
+      <buttonStyle1 name="博客ddddd"/>
+    </div>
+    <div class="btn">
+      <buttonStyle1/>
+    </div>
+    <div class="btn">
+      <buttonStyle1/>
+    </div>
   </div>
 </template>
 
 <script>
-export default {}
+import buttonStyle1 from "@/components/buttonStyle1.vue";
+
+export default {
+  components: {
+    buttonStyle1
+  }
+}
 </script>
 
 <style lang="scss" scoped>
@@ -19,10 +33,16 @@ export default {}
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 10px;
 
   .btn {
     width: 20%;
-    background-color: red;
+    height: 80%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
   }
 }
 

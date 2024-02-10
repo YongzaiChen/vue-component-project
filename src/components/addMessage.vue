@@ -7,7 +7,6 @@
       <button @click="addMessage">add box</button>
     </div>
   </div>
-
 </template>
 
 <script>

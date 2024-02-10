@@ -24,7 +24,7 @@ export default {}
   height: 100%;
   background-image: url("../assets/pokemon.png");
   background-size: 25%;
-  animation: animation 3s infinite cubic-bezier(0, 0, 1, 1);
+  animation: animation 5s infinite cubic-bezier(0, 0, 1, 1);
 }
 
 .backgroundLoop2 {
@@ -32,7 +32,7 @@ export default {}
   height: 100%;
   background-image: url("../assets/pokemon.png");
   background-size: 25%;
-  animation: animation 3s infinite cubic-bezier(0, 0, 1, 1);
+  animation: animation 5s infinite cubic-bezier(0, 0, 1, 1);
 }
 
 @keyframes animation {
