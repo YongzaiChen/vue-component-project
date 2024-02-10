@@ -20,7 +20,7 @@ export default {
 #buttonStyle1 span {
   display: inline-block;
   background: linear-gradient(to right, #3b91ff, #3b91ff) no-repeat left bottom;
-  background-size: 0px 3px;
+  background-size: 0 3px;
   transition: background 0.25s;
   padding-bottom: 4px;
   font-size: 14px;
