@@ -5,7 +5,7 @@
 </template>
 
 <script>
-npm
+
 </script>
 
 <style scoped>
