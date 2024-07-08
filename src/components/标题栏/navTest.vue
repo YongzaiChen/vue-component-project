@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import buttonStyle1 from "@/components/buttonStyle1.vue";
+import buttonStyle1 from "@/components/按钮/buttonStyle1.vue";
 
 export default {
   components: {

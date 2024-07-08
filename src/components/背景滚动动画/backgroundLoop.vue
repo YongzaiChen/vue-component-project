@@ -22,7 +22,7 @@ export default {}
   margin-left: -100%;
   width: 100%;
   height: 100%;
-  background-image: url("../assets/pokemon.png");
+  background-image: url("../../assets/pokemon.png");
   background-size: 25%;
 
   animation: animation 5s infinite cubic-bezier(0, 0, 1, 1);
@@ -31,7 +31,7 @@ export default {}
 .backgroundLoop2 {
   width: 100%;
   height: 100%;
-  background-image: url("../assets/pokemon.png");
+  background-image: url("../../assets/pokemon.png");
   background-size: 25%;
   animation: animation 5s infinite cubic-bezier(0, 0, 1, 1);
 }
