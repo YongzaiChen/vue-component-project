@@ -24,6 +24,7 @@ export default {}
   height: 100%;
   background-image: url("../assets/pokemon.png");
   background-size: 25%;
+
   animation: animation 5s infinite cubic-bezier(0, 0, 1, 1);
 }
 
